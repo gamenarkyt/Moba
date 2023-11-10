@@ -1,0 +1,38 @@
+# Moba - Mock backend server
+
+## For what?
+- Every junior frontend developer should work with a backend. Json server and etc won't teach you how to work with the backend. Don't waste your time on todo lists app.
+
+## What is CRUD?
+- Create, read, update (patch) and delete functions for any endpoint.
+
+
+## What is JWT?
+- Json Web Token used for authorization on site without store password.
+
+
+## Features:
+- No configs or etc, just clone and run `yarn start:dev`
+- Easy syntax for db (prisma orm)
+- Support login and register with hash password and session auth token.
+- Base project have (CRUD):
+  1. Users endpoint 
+  2. Posts endpoint 
+  3. Auth endpoint 
+- An opportunity to work with a real backend and understand how it works from the inside (this is important for junior frontend)
+- simple for understanding usage examples (frontend)
+
+## Roadmap:
+- [ ] Endpoint
+  - [x] Users endpoint
+  - [x] Posts endpoint
+  - [x] Auth endpoint
+- [ ] Support hash and auth token (jwt)
+- [ ] Typing dto with TypeScript
+- [ ] Validation Pipe
+- [ ] Usage examples
+
+
+## I'm not a backend developer, if you find bug or etc you can push requests with corrections.
+
+
